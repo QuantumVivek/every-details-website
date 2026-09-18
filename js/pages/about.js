@@ -12,7 +12,7 @@ export async function renderAbout(root) {
     <section class="page-hero">
       <div class="container">
         <span class="eyebrow">ABOUT US</span>
-        <h1>${site.name}</h1>
+        <h1>${site.shortName || site.name}</h1>
         <p>Muzaffarpur-based counselling for Indian universities — regular and correspondence, with every file handled.</p>
       </div>
     </section>
