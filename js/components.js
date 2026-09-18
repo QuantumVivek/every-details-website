@@ -121,7 +121,7 @@ export function renderFooter(site) {
       </div>
       <div class="footer-bottom">
         <span>© 2014 ${site.shortName || site.name}. All Rights Reserved.</span>
-        <a class="footer-credit" href="https://pixelsinfreme.in" target="_blank" rel="noreferrer">Created by pixelsinfreme.in</a>
+        <a class="footer-credit" href="https://www.pixelsinframe.in" target="_blank" rel="noreferrer">Created by pixelsinframe.in</a>
         <nav class="footer-legal" aria-label="Legal">
           <a href="/privacy">Privacy Policy</a>
           <span aria-hidden="true">•</span>

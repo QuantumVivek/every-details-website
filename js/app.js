@@ -1,5 +1,5 @@
 import { api } from "./api.js?v=7";
-import { renderTopbar, renderHeader, renderFooter, bindLayoutEvents } from "./components.js?v=11";
+import { renderTopbar, renderHeader, renderFooter, bindLayoutEvents } from "./components.js?v=12";
 import { bindPageAnimations } from "./animate.js?v=8";
 import { renderHome } from "./pages/home.js?v=7";
 import { renderCourses } from "./pages/courses.js?v=7";
