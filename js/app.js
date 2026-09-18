@@ -36,7 +36,7 @@ async function boot() {
         <div class="container">
           <h2>Website could not load</h2>
           <p>${error.message}</p>
-          <p>Start the local server so the JavaScript app can reach the backend API.</p>
+          <p>Please refresh the page. If it still does not open, wait a minute and try again.</p>
         </div>
       </section>
     `;
