@@ -150,6 +150,8 @@ const pages = {
   "/colleges": "colleges.html",
   "/about": "about.html",
   "/contact": "contact.html",
+  "/privacy": "privacy.html",
+  "/terms": "terms.html",
 };
 
 Object.entries(pages).forEach(([route, file]) => {
