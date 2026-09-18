@@ -1512,11 +1512,12 @@ body.menu-open {
   transform: none;
 }
 
-.footer-legal {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+.footer-credit {
+  color: #c5d4ea;
+}
+
+.footer-credit:hover {
+  color: #fff;
 }
 
 .footer-legal a {
