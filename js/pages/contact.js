@@ -1,6 +1,6 @@
-import { api } from "../api.js";
-import { icon } from "../icons.js";
-import { showToast } from "../components.js";
+import { api } from "../api.js?v=6";
+import { icon } from "../icons.js?v=6";
+import { showToast } from "../components.js?v=6";
 
 function sendInquiryOnWhatsApp(data, whatsappNumber) {
   const number = String(whatsappNumber || "918271583752").replace(/[^\d]/g, "");

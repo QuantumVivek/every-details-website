@@ -1,5 +1,5 @@
-import { api } from "../api.js";
-import { icon } from "../icons.js";
+import { api } from "../api.js?v=6";
+import { icon } from "../icons.js?v=6";
 
 export async function renderColleges(root) {
   const colleges = await api.getColleges();
@@ -27,7 +27,7 @@ export async function renderColleges(root) {
                 <h3>${college.name}</h3>
                 <p class="meta">${college.city}</p>
                 <p>${college.focus}</p>
-                <a class="btn btn-navy" href="contact.html?course=${encodeURIComponent(college.name)}">Ask About Admission ${icon("arrow")}</a>
+                <a class="btn btn-navy" href="/contact?course=${encodeURIComponent(college.name)}">Ask About Admission ${icon("arrow")}</a>
               </div>
             </article>`
             )

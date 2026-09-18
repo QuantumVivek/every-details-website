@@ -1,6 +1,6 @@
-import { api } from "../api.js";
-import { icon } from "../icons.js";
-import { courseCard } from "../components.js";
+import { api } from "../api.js?v=6";
+import { icon } from "../icons.js?v=6";
+import { courseCard } from "../components.js?v=6";
 
 export async function renderCourses(root) {
   const courses = await api.getCourses();

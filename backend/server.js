@@ -23,16 +23,20 @@ const MIME = {
   ".ico": "image/x-icon",
 };
 
-const PUBLIC_PAGES = new Set([
-  "/",
-  "/index.html",
-  "/courses.html",
-  "/colleges.html",
-  "/about.html",
-  "/contact.html",
-]);
+const PAGE_FILES = {
+  "/": "index.html",
+  "/index.html": "index.html",
+  "/courses": "courses.html",
+  "/courses.html": "courses.html",
+  "/colleges": "colleges.html",
+  "/colleges.html": "colleges.html",
+  "/about": "about.html",
+  "/about.html": "about.html",
+  "/contact": "contact.html",
+  "/contact.html": "contact.html",
+};
 
-const PUBLIC_DIRS = new Set(["css", "js", "images"]);
+const PUBLIC_DIRS = new Set(["css", "js", "images", "backend"]);
 
 async function readJson(file, fallback) {
   try {
@@ -172,12 +176,13 @@ async function handleApi(req, res, url) {
 
 async function handleStatic(req, res, url) {
   let pathname = decodeURIComponent(url.pathname);
-  if (pathname === "/") pathname = "/index.html";
+  if (pathname.length > 1 && pathname.endsWith("/")) {
+    pathname = pathname.slice(0, -1);
+  }
 
-  const relative = pathname.replace(/^\/+/, "");
+  let relative = PAGE_FILES[pathname] || pathname.replace(/^\/+/, "");
   const first = relative.split("/")[0];
-  const isRootHtml = !relative.includes("/") && relative.endsWith(".html");
-  const allowed = PUBLIC_PAGES.has(pathname) || PUBLIC_DIRS.has(first) || isRootHtml;
+  const allowed = Boolean(PAGE_FILES[pathname]) || PUBLIC_DIRS.has(first);
   if (!allowed) {
     res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
     res.end("Not found");

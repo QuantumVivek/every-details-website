@@ -1,5 +1,5 @@
-import { icon } from "./icons.js";
-import { api } from "./api.js";
+import { icon } from "./icons.js?v=6";
+import { api } from "./api.js?v=6";
 
 function telHref(phone) {
   return String(phone || "").replace(/[^\d+]/g, "");
@@ -39,17 +39,17 @@ export function renderTopbar(site) {
 
 export function renderHeader(site, active) {
   const links = [
-    ["index.html", "home", "Home"],
-    ["courses.html", "courses", "Courses"],
-    ["colleges.html", "colleges", "Colleges"],
-    ["about.html", "about", "About Us"],
-    ["contact.html", "contact", "Contact"],
+    ["/", "home", "Home"],
+    ["/courses", "courses", "Courses"],
+    ["/colleges", "colleges", "Colleges"],
+    ["/about", "about", "About Us"],
+    ["/contact", "contact", "Contact"],
   ];
 
   return `
     <header class="nav" id="nav">
       <div class="container nav-inner">
-        <a class="logo" href="index.html">
+        <a class="logo" href="/">
           <img class="logo-img" src="images/logo.png?v=3" alt="Every Details Education Consultancy" />
         </a>
         <ul class="nav-links" id="nav-links">
@@ -61,7 +61,7 @@ export function renderHeader(site, active) {
             .join("")}
         </ul>
         <div class="nav-actions">
-          <a class="btn btn-gold nav-cta" href="contact.html">Get Free Counseling ${icon("arrow")}</a>
+          <a class="btn btn-gold nav-cta" href="/contact">Get Free Counseling ${icon("arrow")}</a>
           <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
             <span></span><span></span><span></span>
           </button>
@@ -80,13 +80,13 @@ export function renderFooter(site) {
           <h2>TAKE THE FIRST STEP TOWARDS YOUR DREAM</h2>
           <p>Get Free Career Counseling Today.</p>
         </div>
-        <a class="btn btn-gold" href="contact.html">Contact Us Now ${icon("arrow")}</a>
+        <a class="btn btn-gold" href="/contact">Contact Us Now ${icon("arrow")}</a>
       </div>
     </section>
     <footer class="footer">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="logo logo-footer" href="index.html">
+          <a class="logo logo-footer" href="/">
             <img class="logo-img" src="images/logo.png?v=3" alt="Every Details Education Consultancy" />
           </a>
           <p>${site.tagline}. Honest counselling, complete admission support, and a brighter academic future.</p>
@@ -94,11 +94,11 @@ export function renderFooter(site) {
         <div>
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="colleges.html">Colleges</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/courses">Courses</a></li>
+            <li><a href="/colleges">Colleges</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <div>
@@ -129,7 +129,7 @@ export function renderFooter(site) {
 
 export function courseCard(course, index = 0) {
   return `
-    <a class="course-card" id="${course.slug}" href="contact.html?course=${encodeURIComponent(course.title)}" style="--i:${Math.min(index, 7)}">
+    <a class="course-card" id="${course.slug}" href="/contact?course=${encodeURIComponent(course.title)}" style="--i:${Math.min(index, 7)}">
       <div class="course-media">
         <img src="${course.image}" alt="${course.fullName}" loading="lazy" />
       </div>

@@ -1,11 +1,11 @@
-import { api } from "./api.js";
-import { renderTopbar, renderHeader, renderFooter, bindLayoutEvents } from "./components.js";
-import { bindPageAnimations } from "./animate.js";
-import { renderHome } from "./pages/home.js";
-import { renderCourses } from "./pages/courses.js";
-import { renderAbout } from "./pages/about.js";
-import { renderContact } from "./pages/contact.js";
-import { renderColleges } from "./pages/colleges.js";
+import { api } from "./api.js?v=6";
+import { renderTopbar, renderHeader, renderFooter, bindLayoutEvents } from "./components.js?v=6";
+import { bindPageAnimations } from "./animate.js?v=6";
+import { renderHome } from "./pages/home.js?v=6";
+import { renderCourses } from "./pages/courses.js?v=6";
+import { renderAbout } from "./pages/about.js?v=6";
+import { renderContact } from "./pages/contact.js?v=6";
+import { renderColleges } from "./pages/colleges.js?v=6";
 
 const pages = {
   home: renderHome,

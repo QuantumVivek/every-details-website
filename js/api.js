@@ -1,11 +1,11 @@
-import { API_BASE } from "./config.js";
+import { API_BASE } from "./config.js?v=6";
 
 let dbCache = null;
 let useStaticData = false;
 
 async function getDb() {
   if (dbCache) return dbCache;
-  const response = await fetch("/backend/db.json", { cache: "no-store" });
+  const response = await fetch("/backend/db.json?v=6", { cache: "no-store" });
   if (!response.ok) {
     throw new Error("Website data could not load. Please refresh.");
   }

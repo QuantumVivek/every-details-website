@@ -1,6 +1,6 @@
-import { api } from "../api.js";
-import { icon } from "../icons.js";
-import { courseCard } from "../components.js";
+import { api } from "../api.js?v=6";
+import { icon } from "../icons.js?v=6";
+import { courseCard } from "../components.js?v=6";
 
 function campusSvg() {
   return `
@@ -40,8 +40,8 @@ export async function renderHome(root) {
           <h2>${hero.subtitle}</h2>
           <p>${hero.text}</p>
           <div class="hero-actions">
-            <a class="btn btn-navy" href="courses.html">Explore Courses ${icon("arrow")}</a>
-            <a class="btn btn-outline" href="contact.html">Free Career Counseling</a>
+            <a class="btn btn-navy" href="/courses">Explore Courses ${icon("arrow")}</a>
+            <a class="btn btn-outline" href="/contact">Free Career Counseling</a>
           </div>
         </div>
         <div class="hero-visual">
@@ -75,7 +75,7 @@ export async function renderHome(root) {
             <h2>COURSES WE OFFER</h2>
             <p class="section-sub">BA, B.Com, B.Tech, MBA, B.Ed, LLB and more — regular & correspondence.</p>
           </div>
-          <a class="btn btn-navy" href="courses.html">View All Courses ${icon("arrow")}</a>
+          <a class="btn btn-navy" href="/courses">View All Courses ${icon("arrow")}</a>
         </div>
         <div class="courses-grid">
           ${courses.map((course, index) => courseCard(course, index)).join("")}
@@ -123,7 +123,7 @@ export async function renderHome(root) {
           <h2>${site.name}</h2>
           <p class="section-sub">Your Success, Our Commitment</p>
           <p>${about.text}</p>
-          <a class="btn btn-navy" href="about.html">Know More About Us ${icon("arrow")}</a>
+          <a class="btn btn-navy" href="/about">Know More About Us ${icon("arrow")}</a>
         </div>
         <div class="stats">
           ${stats
