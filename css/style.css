@@ -1500,14 +1500,16 @@ body.menu-open {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  padding: 16px 28px;
+  padding: 18px 28px 22px;
   font-size: 13px;
-  color: #9eb0cb;
+  color: #c5d4ea;
+  opacity: 1;
+  transform: none;
 }
 
 .footer-legal {

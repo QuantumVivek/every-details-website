@@ -156,6 +156,7 @@ const pages = {
 
 Object.entries(pages).forEach(([route, file]) => {
   app.get(route, (_req, res) => {
+    res.set("Cache-Control", "no-store");
     res.sendFile(path.join(ROOT, file));
   });
 });

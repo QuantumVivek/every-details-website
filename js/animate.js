@@ -33,7 +33,6 @@ export function bindPageAnimations() {
     [".college-credit", ""],
     [".cta-inner", ""],
     [".footer-grid > *", ""],
-    [".footer-bottom", ""],
   ];
 
   singles.forEach(([selector, extra]) => {
