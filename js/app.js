@@ -4,7 +4,7 @@ import { bindPageAnimations } from "./animate.js?v=8";
 import { renderHome } from "./pages/home.js?v=7";
 import { renderCourses } from "./pages/courses.js?v=7";
 import { renderAbout } from "./pages/about.js?v=9";
-import { renderContact } from "./pages/contact.js?v=7";
+import { renderContact } from "./pages/contact.js?v=13";
 import { renderColleges } from "./pages/colleges.js?v=7";
 import { renderPrivacy, renderTerms } from "./pages/legal.js?v=7";
 

@@ -1,6 +1,6 @@
 import { api } from "../api.js?v=6";
 import { icon } from "../icons.js?v=6";
-import { showToast } from "../components.js?v=6";
+import { showToast } from "../components.js?v=12";
 
 function sendInquiryOnWhatsApp(data, whatsappNumber) {
   const number = String(whatsappNumber || "918271583752").replace(/[^\d]/g, "");
@@ -10,11 +10,16 @@ function sendInquiryOnWhatsApp(data, whatsappNumber) {
     `Phone: ${data.phone || ""}`,
     `Email: ${data.email || ""}`,
     `Course: ${data.course || ""}`,
+    `Message: ${data.message || ""}`,
   ];
-  if (data.message) lines.push(`Message: ${data.message}`);
   const url = `https://wa.me/${number}?text=${encodeURIComponent(lines.join("\n"))}`;
-  const popup = window.open(url, "_blank", "noopener");
-  if (!popup) window.location.href = url;
+  const link = document.createElement("a");
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
 }
 
 export async function renderContact(root) {
@@ -91,34 +96,27 @@ export async function renderContact(root) {
             <textarea id="message" name="message" placeholder="Tell us your course, marks, city, and whether you want regular or correspondence"></textarea>
           </div>
           <button class="btn btn-navy" type="submit">Submit Inquiry ${icon("arrow")}</button>
-          <p class="form-hint">Submit ke baad WhatsApp khulega. Send dabao taaki inquiry 8271583752 par chali jaye.</p>
+          <p class="form-hint">Submit ke baad WhatsApp khulega. Poora form 8271583752 par chala jayega — Send dabaana.</p>
           <p class="form-note" id="form-note"></p>
         </form>
       </div>
     </section>
   `;
 
-  document.getElementById("inquiry-form").addEventListener("submit", async (event) => {
+  document.getElementById("inquiry-form").addEventListener("submit", (event) => {
     event.preventDefault();
     const form = event.currentTarget;
     const data = Object.fromEntries(new FormData(form).entries());
     const note = document.getElementById("form-note");
     const button = form.querySelector("button");
     button.disabled = true;
-    try {
-      const result = await api.sendInquiry(data);
-      note.textContent = result.message;
-      note.className = "form-note success";
-      showToast("Inquiry WhatsApp par bheji ja rahi hai.");
-      sendInquiryOnWhatsApp(data, site.inquiryWhatsapp);
-      form.reset();
-    } catch (error) {
-      sendInquiryOnWhatsApp(data, site.inquiryWhatsapp);
-      note.textContent = "WhatsApp khul gaya hai. Send dabakar inquiry bhej den.";
-      note.className = "form-note success";
-      showToast("WhatsApp par inquiry bhejein.");
-    } finally {
-      button.disabled = false;
-    }
+
+    sendInquiryOnWhatsApp(data, site.inquiryWhatsapp);
+    note.textContent = "WhatsApp khul gaya hai. Send dabakar poori inquiry bhej den.";
+    note.className = "form-note success";
+    showToast("Poora form WhatsApp par ja raha hai.");
+    api.sendInquiry(data).catch(() => {});
+    form.reset();
+    button.disabled = false;
   });
 }
