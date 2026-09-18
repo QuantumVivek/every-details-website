@@ -1,0 +1,514 @@
+{
+  "site": {
+    "name": "EVERY DETAIL EDUCATION CONSULTANCY",
+    "shortName": "EVERY DETAIL",
+    "tagline": "Precision Planning for Perfection",
+    "phone": "+91 97290 92226",
+    "phoneAlt": "+91 92127 04828",
+    "email": "info.everydetails@gmail.com",
+    "address": "Dumri Road, Gobarsahi, Muzaffarpur, Bihar",
+    "inquiryWhatsapp": "918271583752",
+    "socials": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "linkedin": "https://linkedin.com",
+      "youtube": "https://youtube.com"
+    }
+  },
+  "hero": {
+    "kickerLeft": "Your Dream",
+    "kickerRight": "Our Mission",
+    "title": "FIND YOUR COLLEGE IN INDIA",
+    "script": "Your Dream Our Priority",
+    "subtitle": "Honest admission counselling for Indian universities",
+    "text": "From our Muzaffarpur desk we match you to the right Indian college — regular or correspondence — and stay with you till the seat is confirmed.",
+    "image": "images/hero-graduate.png"
+  },
+  "features": [
+    {
+      "icon": "shield",
+      "label": "Trusted Guidance"
+    },
+    {
+      "icon": "users",
+      "label": "1000+ Successful Students"
+    },
+    {
+      "icon": "university",
+      "label": "India-Wide Admissions"
+    }
+  ],
+  "courses": [
+    {
+      "slug": "ba",
+      "title": "BA Various",
+      "fullName": "Bachelor of Arts",
+      "description": "Arts programmes across literature, history, political science, and more.",
+      "duration": "3 Years",
+      "icon": "book",
+      "image": "images/courses/arts.jpg"
+    },
+    {
+      "slug": "bcom",
+      "title": "B.Com",
+      "fullName": "Bachelor of Commerce",
+      "description": "Build a foundation in accounts, finance, taxation, and business.",
+      "duration": "3 Years",
+      "icon": "briefcase",
+      "image": "images/courses/bba.jpg"
+    },
+    {
+      "slug": "bsc",
+      "title": "B.Sc Various",
+      "fullName": "Bachelor of Science",
+      "description": "Science degrees across multiple specialisations, including correspondence options.",
+      "duration": "3 Years",
+      "icon": "flask",
+      "image": "images/courses/bsc.jpg"
+    },
+    {
+      "slug": "msc",
+      "title": "M.Sc Various",
+      "fullName": "Master of Science",
+      "description": "Postgraduate science programmes for research and professional careers.",
+      "duration": "2 Years",
+      "icon": "flask",
+      "image": "images/courses/bsc.jpg"
+    },
+    {
+      "slug": "bca",
+      "title": "BCA",
+      "fullName": "Bachelor of Computer Applications",
+      "description": "Undergraduate IT programme covering programming, databases, and software.",
+      "duration": "3 Years",
+      "icon": "gear",
+      "image": "images/courses/btech.jpg"
+    },
+    {
+      "slug": "blib",
+      "title": "B.Lib",
+      "fullName": "Bachelor of Library Science",
+      "description": "Learn library systems, cataloguing, and information management.",
+      "duration": "1 Year",
+      "icon": "book",
+      "image": "images/courses/other.jpg"
+    },
+    {
+      "slug": "mcom",
+      "title": "M.Com",
+      "fullName": "Master of Commerce",
+      "description": "Advanced commerce, accounting, and financial management studies.",
+      "duration": "2 Years",
+      "icon": "chart",
+      "image": "images/courses/bba.jpg"
+    },
+    {
+      "slug": "bba",
+      "title": "BBA",
+      "fullName": "Bachelor of Business Administration",
+      "description": "Build a strong foundation in management, marketing, and entrepreneurship.",
+      "duration": "3 Years",
+      "icon": "briefcase",
+      "image": "images/courses/bba.jpg"
+    },
+    {
+      "slug": "ma",
+      "title": "MA Various",
+      "fullName": "Master of Arts",
+      "description": "Postgraduate arts programmes across multiple subjects.",
+      "duration": "2 Years",
+      "icon": "book",
+      "image": "images/courses/arts.jpg"
+    },
+    {
+      "slug": "bsw",
+      "title": "BSW",
+      "fullName": "Bachelor of Social Work",
+      "description": "Prepare for community development, NGOs, and social welfare careers.",
+      "duration": "3 Years",
+      "icon": "users",
+      "image": "images/courses/social.jpg"
+    },
+    {
+      "slug": "dlib",
+      "title": "D.Lib",
+      "fullName": "Diploma in Library Science",
+      "description": "A practical diploma for library and information centre roles.",
+      "duration": "1 Year",
+      "icon": "book",
+      "image": "images/courses/other.jpg"
+    },
+    {
+      "slug": "mlib",
+      "title": "M.Lib",
+      "fullName": "Master of Library Science",
+      "description": "Advanced library science, research, and digital information systems.",
+      "duration": "1-2 Years",
+      "icon": "book",
+      "image": "images/courses/other.jpg"
+    },
+    {
+      "slug": "hotel-mgt",
+      "title": "Hotel Mgt.",
+      "fullName": "Hotel Management",
+      "description": "Hospitality, hotel operations, and tourism management programmes.",
+      "duration": "3 Years",
+      "icon": "hotel",
+      "image": "images/courses/hotel.jpg"
+    },
+    {
+      "slug": "engg-diploma",
+      "title": "Engg. Diploma",
+      "fullName": "Engineering Diploma",
+      "description": "Technical diploma programmes across core engineering branches.",
+      "duration": "3 Years",
+      "icon": "gear",
+      "image": "images/courses/mtech.jpg"
+    },
+    {
+      "slug": "btech",
+      "title": "B.Tech",
+      "fullName": "Bachelor of Technology",
+      "description": "Engineering programmes across CS, Mechanical, Civil, and more.",
+      "duration": "4 Years",
+      "icon": "gear",
+      "image": "images/courses/btech.jpg"
+    },
+    {
+      "slug": "mtech",
+      "title": "M.Tech",
+      "fullName": "Master of Technology",
+      "description": "Advanced technical specialisation for a high-growth career.",
+      "duration": "2 Years",
+      "icon": "cap",
+      "image": "images/courses/mtech.jpg"
+    },
+    {
+      "slug": "mphil",
+      "title": "M.Phil Various",
+      "fullName": "Master of Philosophy",
+      "description": "Research-focused postgraduate programmes across selected subjects.",
+      "duration": "1-2 Years",
+      "icon": "cap",
+      "image": "images/courses/arts.jpg"
+    },
+    {
+      "slug": "phd",
+      "title": "Ph.D Various",
+      "fullName": "Doctor of Philosophy",
+      "description": "Doctoral research guidance across approved university programmes.",
+      "duration": "3+ Years",
+      "icon": "cap",
+      "image": "images/courses/arts.jpg"
+    },
+    {
+      "slug": "msc-it",
+      "title": "M.Sc IT",
+      "fullName": "Master of Science in IT",
+      "description": "Postgraduate information technology, software, and systems study.",
+      "duration": "2 Years",
+      "icon": "gear",
+      "image": "images/courses/btech.jpg"
+    },
+    {
+      "slug": "emba",
+      "title": "E-MBA",
+      "fullName": "Executive MBA",
+      "description": "MBA for working professionals, including correspondence options.",
+      "duration": "2 Years",
+      "icon": "chart",
+      "image": "images/courses/mba.jpg"
+    },
+    {
+      "slug": "mca",
+      "title": "MCA",
+      "fullName": "Master of Computer Applications",
+      "description": "Advanced computer applications, software development, and IT careers.",
+      "duration": "2 Years",
+      "icon": "gear",
+      "image": "images/courses/btech.jpg"
+    },
+    {
+      "slug": "decce",
+      "title": "DECCE",
+      "fullName": "Diploma in Early Childhood Care & Education",
+      "description": "Training for preschool, daycare, and early childhood education roles.",
+      "duration": "1-2 Years",
+      "icon": "child",
+      "image": "images/courses/education.jpg"
+    },
+    {
+      "slug": "vfxa",
+      "title": "VFXA",
+      "fullName": "Visual Effects & Animation",
+      "description": "Animation, VFX, and digital design programmes for creative careers.",
+      "duration": "1-3 Years",
+      "icon": "grid",
+      "image": "images/courses/btech.jpg"
+    },
+    {
+      "slug": "llb",
+      "title": "LLB",
+      "fullName": "Bachelor of Laws",
+      "description": "Law degree for legal practice, corporate law, and public service.",
+      "duration": "3 Years",
+      "icon": "gavel",
+      "image": "images/courses/other.jpg"
+    },
+    {
+      "slug": "bsc-it",
+      "title": "B.Sc IT",
+      "fullName": "Bachelor of Science in IT",
+      "description": "Undergraduate information technology and computer science programme.",
+      "duration": "3 Years",
+      "icon": "gear",
+      "image": "images/courses/btech.jpg"
+    },
+    {
+      "slug": "mba",
+      "title": "MBA Various",
+      "fullName": "Master of Business Administration",
+      "description": "Leadership, finance, marketing, and global business management.",
+      "duration": "2 Years",
+      "icon": "chart",
+      "image": "images/courses/mba.jpg"
+    },
+    {
+      "slug": "bms",
+      "title": "BMS",
+      "fullName": "Bachelor of Management Studies",
+      "description": "Undergraduate management studies for business and operations roles.",
+      "duration": "3 Years",
+      "icon": "briefcase",
+      "image": "images/courses/bba.jpg"
+    },
+    {
+      "slug": "bmm",
+      "title": "BMM",
+      "fullName": "Bachelor of Mass Media",
+      "description": "Media, advertising, and communication programmes.",
+      "duration": "3 Years",
+      "icon": "camera",
+      "image": "images/courses/journalism.jpg"
+    },
+    {
+      "slug": "llm",
+      "title": "LLM",
+      "fullName": "Master of Laws",
+      "description": "Postgraduate law specialisation after LLB.",
+      "duration": "1-2 Years",
+      "icon": "gavel",
+      "image": "images/courses/other.jpg"
+    },
+    {
+      "slug": "journalism",
+      "title": "Journalism",
+      "fullName": "Journalism & Mass Communication",
+      "description": "Reporting, media production, and communication careers.",
+      "duration": "1-3 Years",
+      "icon": "camera",
+      "image": "images/courses/journalism.jpg"
+    },
+    {
+      "slug": "ded",
+      "title": "D.Ed",
+      "fullName": "Diploma in Education",
+      "description": "Teacher training diploma for school education roles.",
+      "duration": "2 Years",
+      "icon": "cap",
+      "image": "images/courses/education.jpg"
+    },
+    {
+      "slug": "bed",
+      "title": "B.Ed",
+      "fullName": "Bachelor of Education",
+      "description": "Professional teacher-education degree for school teaching.",
+      "duration": "2 Years",
+      "icon": "cap",
+      "image": "images/courses/education.jpg"
+    },
+    {
+      "slug": "med",
+      "title": "M.Ed",
+      "fullName": "Master of Education",
+      "description": "Postgraduate education programme for teaching and academic leadership.",
+      "duration": "2 Years",
+      "icon": "cap",
+      "image": "images/courses/education.jpg"
+    },
+    {
+      "slug": "ntt",
+      "title": "NTT",
+      "fullName": "Nursery Teacher Training",
+      "description": "Training for nursery and preschool teaching.",
+      "duration": "1 Year",
+      "icon": "child",
+      "image": "images/courses/education.jpg"
+    },
+    {
+      "slug": "ptt",
+      "title": "PTT",
+      "fullName": "Primary Teacher Training",
+      "description": "Training for primary school teaching roles.",
+      "duration": "1-2 Years",
+      "icon": "child",
+      "image": "images/courses/education.jpg"
+    },
+    {
+      "slug": "iti",
+      "title": "ITI",
+      "fullName": "Industrial Training Institute",
+      "description": "Skill-based vocational trades and technical training programmes.",
+      "duration": "1-2 Years",
+      "icon": "gear",
+      "image": "images/courses/mtech.jpg"
+    }
+  ],
+  "whyChoose": [
+    {
+      "icon": "star",
+      "title": "Course Fit First",
+      "text": "We match your marks, budget and career goal to the right Indian programme — not a random college list."
+    },
+    {
+      "icon": "university",
+      "title": "Indian Universities Only",
+      "text": "Admission guidance for the Indian campuses we actually counsel for, including regular and correspondence."
+    },
+    {
+      "icon": "process",
+      "title": "File Ready, Seat Ready",
+      "text": "Forms, documents and follow-ups are handled with you until the university confirms your seat."
+    },
+    {
+      "icon": "check",
+      "title": "Local Team You Can Call",
+      "text": "A Bihar-based desk in Muzaffarpur — walk in, call, or WhatsApp. Guidance you can sit across the table for."
+    }
+  ],
+  "about": {
+    "image": "images/about-students.png",
+    "whyImage": "images/why-books-globe.png",
+    "text": "Every Details is a Muzaffarpur admission desk for Indian universities only. We help you pick the right course in India, complete the file, and follow the university until your seat is in writing."
+  },
+  "stats": [
+    {
+      "icon": "users",
+      "label": "1000+ Students Guided"
+    },
+    {
+      "icon": "university",
+      "label": "10 Indian Universities"
+    },
+    {
+      "icon": "book",
+      "label": "Regular & Correspondence"
+    },
+    {
+      "icon": "support",
+      "label": "100% Guidance & Support"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "initials": "PS",
+      "meta": "B.Tech | Jharkhand",
+      "quote": "They shortlisted Indian colleges that actually fit my marks and budget. Documents were ready before the deadline."
+    },
+    {
+      "name": "Rahul Mehta",
+      "initials": "RM",
+      "meta": "MBA | Bihar",
+      "quote": "I wanted an MBA close to home. Every Details explained regular vs correspondence clearly and got my admission moving."
+    },
+    {
+      "name": "Ananya Patel",
+      "initials": "AP",
+      "meta": "B.Sc Nursing | Uttarakhand",
+      "quote": "From course choice to the final fee receipt, the Muzaffarpur team stayed on WhatsApp until my seat was confirmed."
+    }
+  ],
+  "colleges": [
+    {
+      "slug": "aisect-university",
+      "name": "AISECT University",
+      "city": "Hazaribagh, Jharkhand",
+      "country": "India",
+      "focus": "BA, B.Com, BBA, BCA, B.Sc IT, LLB, B.Pharm, Diploma",
+      "image": "images/colleges/campus-academic-block.jpg"
+    },
+    {
+      "slug": "durga-soren-university",
+      "name": "Durga Soren University",
+      "city": "Deoghar, Jharkhand",
+      "country": "India",
+      "focus": "BA, B.Com, BBA, Nursing, Pharmacy, ITI, Paramedical",
+      "image": "images/colleges/campus-reading-room.jpg"
+    },
+    {
+      "slug": "saveetha-amaravati-university",
+      "name": "Saveetha Amaravati University",
+      "city": "Amaravati / Vijayawada, Andhra Pradesh",
+      "country": "India",
+      "focus": "BPT, BOT, B.Sc Allied Health Sciences",
+      "image": "images/colleges/campus-therapy-training.jpg"
+    },
+    {
+      "slug": "manjira-devi-university",
+      "name": "Smt. Manjira Devi University",
+      "city": "Uttarkashi, Uttarakhand",
+      "country": "India",
+      "focus": "B.Tech, B.Sc, BBA, B.Ed, BA LLB, B.Sc Nursing",
+      "image": "images/colleges/campus-hill-block.jpg"
+    },
+    {
+      "slug": "isbm-university",
+      "name": "ISBM University",
+      "city": "Gariyaband, Chhattisgarh",
+      "country": "India",
+      "focus": "BBA, BCA, B.Com, B.Tech, MBA, MCA, LLB",
+      "image": "images/colleges/campus-computer-lab.jpg"
+    },
+    {
+      "slug": "sardar-patel-university",
+      "name": "Sardar Patel University",
+      "city": "Balaghat, Madhya Pradesh",
+      "country": "India",
+      "focus": "B.Tech, B.Pharm, BBA, B.Com, B.Ed, MBA, Diploma",
+      "image": "images/colleges/campus-workshop.jpg"
+    },
+    {
+      "slug": "himalayan-garhwal-university",
+      "name": "Himalayan Garhwal University (MAHGU)",
+      "city": "Pauri Garhwal, Uttarakhand",
+      "country": "India",
+      "focus": "B.Sc, BCA, B.Com, B.Lib, MBA, LLB, Diploma",
+      "image": "images/colleges/campus-hill-view.jpg"
+    },
+    {
+      "slug": "william-carey-university",
+      "name": "William Carey University",
+      "city": "Shillong, Meghalaya",
+      "country": "India",
+      "focus": "BA, B.Sc, B.Com, BCA, MBA, D.Pharm",
+      "image": "images/colleges/campus-lecture-hall.jpg"
+    },
+    {
+      "slug": "ccs-university",
+      "name": "Chaudhary Charan Singh University",
+      "city": "Meerut, Uttar Pradesh",
+      "country": "India",
+      "focus": "BA, BBA, MA, M.Com, MBA, MCA — regular & distance",
+      "image": "images/colleges/ccs-university.jpg"
+    },
+    {
+      "slug": "sikkim-alpine-university",
+      "name": "Sikkim Alpine University",
+      "city": "Namchi, Sikkim",
+      "country": "India",
+      "focus": "B.Sc, BCA, B.Com, B.Pharm, B.Ed Special Education",
+      "image": "images/colleges/campus-modern-block.jpg"
+    }
+  ]
+}

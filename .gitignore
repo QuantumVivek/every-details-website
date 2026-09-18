@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+backend/inquiries.json
+backend/subscribers.json
+images/_domain-frames/
+*.tgz
+.DS_Store
+Thumbs.db

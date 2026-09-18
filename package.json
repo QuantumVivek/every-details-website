@@ -1,0 +1,10 @@
+{
+  "name": "every-detail-education",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "description": "Education consultancy website with a JavaScript frontend and Node backend API. Swap db.json for MongoDB/MySQL later."
+}
