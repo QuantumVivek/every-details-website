@@ -120,7 +120,7 @@ export function renderFooter(site) {
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© ${new Date().getFullYear()} ${site.shortName || site.name}. All Rights Reserved.</span>
+        <span>© 2014 ${site.shortName || site.name}. All Rights Reserved.</span>
         <nav class="footer-legal" aria-label="Legal">
           <a href="/privacy">Privacy Policy</a>
           <span aria-hidden="true">•</span>
