@@ -1,10 +1,10 @@
 import { api } from "./api.js?v=7";
-import { renderTopbar, renderHeader, renderFooter, bindLayoutEvents } from "./components.js?v=12";
+import { renderTopbar, renderHeader, renderFooter, bindLayoutEvents } from "./components.js?v=14";
 import { bindPageAnimations } from "./animate.js?v=8";
 import { renderHome } from "./pages/home.js?v=7";
 import { renderCourses } from "./pages/courses.js?v=7";
 import { renderAbout } from "./pages/about.js?v=9";
-import { renderContact } from "./pages/contact.js?v=13";
+import { renderContact } from "./pages/contact.js?v=14";
 import { renderColleges } from "./pages/colleges.js?v=7";
 import { renderPrivacy, renderTerms } from "./pages/legal.js?v=7";
 

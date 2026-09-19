@@ -19,7 +19,7 @@ export function renderTopbar(site) {
       <div class="topbar-inner">
         <div class="topbar-contacts">
           <a href="tel:${telHref(site.phone)}">${icon("phone")} ${site.phone}</a>
-          <a href="tel:${telHref(site.phoneAlt)}">${icon("phone")} ${site.phoneAlt}</a>
+          ${site.phoneAlt ? `<a href="tel:${telHref(site.phoneAlt)}">${icon("phone")} ${site.phoneAlt}</a>` : ""}
           <a class="topbar-email" href="mailto:${site.email}">${icon("mail")} ${site.email}</a>
           <span class="topbar-address">${icon("pin")} ${site.address}</span>
         </div>
@@ -105,7 +105,7 @@ export function renderFooter(site) {
           <h4>Contact Us</h4>
           <ul class="footer-contact">
             <li><a href="tel:${telHref(site.phone)}">${icon("phone")} ${site.phone}</a></li>
-            <li><a href="tel:${telHref(site.phoneAlt)}">${icon("phone")} ${site.phoneAlt}</a></li>
+            ${site.phoneAlt ? `<li><a href="tel:${telHref(site.phoneAlt)}">${icon("phone")} ${site.phoneAlt}</a></li>` : ""}
             <li><a href="mailto:${site.email}">${icon("mail")} ${site.email}</a></li>
             <li>${icon("pin")} ${site.address}</li>
           </ul>
