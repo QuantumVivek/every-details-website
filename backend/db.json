@@ -343,7 +343,7 @@
       "description": "Training for nursery and preschool teaching.",
       "duration": "1 Year",
       "icon": "child",
-      "image": "images/courses/education.jpg"
+      "image": "images/courses/ntt.jpg"
     },
     {
       "slug": "ptt",
@@ -352,7 +352,7 @@
       "description": "Training for primary school teaching roles.",
       "duration": "1-2 Years",
       "icon": "child",
-      "image": "images/courses/education.jpg"
+      "image": "images/courses/ptt.jpg"
     },
     {
       "slug": "iti",
@@ -361,7 +361,7 @@
       "description": "Skill-based vocational trades and technical training programmes.",
       "duration": "1-2 Years",
       "icon": "gear",
-      "image": "images/courses/mtech.jpg"
+      "image": "images/courses/iti.jpg"
     }
   ],
   "whyChoose": [
