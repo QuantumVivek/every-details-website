@@ -19,7 +19,7 @@ export async function renderCourses(root) {
         <div class="courses-grid">
           ${courses.map((course, index) => courseCard(course, index)).join("")}
         </div>
-        <p class="college-credit">Course photographs are from Wikimedia Commons and used under Creative Commons licenses.</p>
+        <p class="college-credit">Course photos are for guidance. Confirm the latest programme details during counselling.</p>
       </div>
     </section>
   `;

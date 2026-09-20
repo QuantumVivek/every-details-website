@@ -46,7 +46,7 @@
       "description": "Arts programmes across literature, history, political science, and more.",
       "duration": "3 Years",
       "icon": "book",
-      "image": "images/courses/arts.jpg"
+      "image": "images/courses/ba.png"
     },
     {
       "slug": "bcom",
@@ -55,7 +55,7 @@
       "description": "Build a foundation in accounts, finance, taxation, and business.",
       "duration": "3 Years",
       "icon": "briefcase",
-      "image": "images/courses/bba.jpg"
+      "image": "images/courses/bcom.jpg"
     },
     {
       "slug": "bsc",
@@ -73,7 +73,7 @@
       "description": "Postgraduate science programmes for research and professional careers.",
       "duration": "2 Years",
       "icon": "flask",
-      "image": "images/courses/bsc.jpg"
+      "image": "images/courses/msc.jpg"
     },
     {
       "slug": "bca",
@@ -82,7 +82,7 @@
       "description": "Undergraduate IT programme covering programming, databases, and software.",
       "duration": "3 Years",
       "icon": "gear",
-      "image": "images/courses/btech.jpg"
+      "image": "images/courses/bca.jpg"
     },
     {
       "slug": "blib",
@@ -91,7 +91,7 @@
       "description": "Learn library systems, cataloguing, and information management.",
       "duration": "1 Year",
       "icon": "book",
-      "image": "images/courses/other.jpg"
+      "image": "images/courses/blib.jpg"
     },
     {
       "slug": "mcom",
@@ -100,7 +100,7 @@
       "description": "Advanced commerce, accounting, and financial management studies.",
       "duration": "2 Years",
       "icon": "chart",
-      "image": "images/courses/bba.jpg"
+      "image": "images/courses/mcom.jpg"
     },
     {
       "slug": "bba",
@@ -118,7 +118,7 @@
       "description": "Postgraduate arts programmes across multiple subjects.",
       "duration": "2 Years",
       "icon": "book",
-      "image": "images/courses/arts.jpg"
+      "image": "images/courses/ma.jpg"
     },
     {
       "slug": "bsw",
@@ -127,7 +127,7 @@
       "description": "Prepare for community development, NGOs, and social welfare careers.",
       "duration": "3 Years",
       "icon": "users",
-      "image": "images/courses/social.jpg"
+      "image": "images/courses/bsw.jpg"
     },
     {
       "slug": "dlib",
@@ -136,7 +136,7 @@
       "description": "A practical diploma for library and information centre roles.",
       "duration": "1 Year",
       "icon": "book",
-      "image": "images/courses/other.jpg"
+      "image": "images/courses/dlib.jpg"
     },
     {
       "slug": "mlib",
@@ -145,7 +145,7 @@
       "description": "Advanced library science, research, and digital information systems.",
       "duration": "1-2 Years",
       "icon": "book",
-      "image": "images/courses/other.jpg"
+      "image": "images/courses/mlib.jpg"
     },
     {
       "slug": "hotel-mgt",
@@ -163,7 +163,7 @@
       "description": "Technical diploma programmes across core engineering branches.",
       "duration": "3 Years",
       "icon": "gear",
-      "image": "images/courses/mtech.jpg"
+      "image": "images/courses/engg-diploma.jpg"
     },
     {
       "slug": "btech",
@@ -190,7 +190,7 @@
       "description": "Research-focused postgraduate programmes across selected subjects.",
       "duration": "1-2 Years",
       "icon": "cap",
-      "image": "images/courses/arts.jpg"
+      "image": "images/courses/mphil.jpg"
     },
     {
       "slug": "phd",
@@ -199,7 +199,7 @@
       "description": "Doctoral research guidance across approved university programmes.",
       "duration": "3+ Years",
       "icon": "cap",
-      "image": "images/courses/arts.jpg"
+      "image": "images/courses/phd.jpg"
     },
     {
       "slug": "msc-it",
@@ -208,7 +208,7 @@
       "description": "Postgraduate information technology, software, and systems study.",
       "duration": "2 Years",
       "icon": "gear",
-      "image": "images/courses/btech.jpg"
+      "image": "images/courses/it.jpg"
     },
     {
       "slug": "emba",
@@ -226,7 +226,7 @@
       "description": "Advanced computer applications, software development, and IT careers.",
       "duration": "2 Years",
       "icon": "gear",
-      "image": "images/courses/btech.jpg"
+      "image": "images/courses/it.jpg"
     },
     {
       "slug": "decce",
@@ -244,7 +244,7 @@
       "description": "Animation, VFX, and digital design programmes for creative careers.",
       "duration": "1-3 Years",
       "icon": "grid",
-      "image": "images/courses/btech.jpg"
+      "image": "images/courses/it.jpg"
     },
     {
       "slug": "llb",
@@ -262,7 +262,7 @@
       "description": "Undergraduate information technology and computer science programme.",
       "duration": "3 Years",
       "icon": "gear",
-      "image": "images/courses/btech.jpg"
+      "image": "images/courses/it.jpg"
     },
     {
       "slug": "mba",
