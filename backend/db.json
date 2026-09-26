@@ -226,7 +226,7 @@
       "description": "Advanced computer applications, software development, and IT careers.",
       "duration": "2 Years",
       "icon": "gear",
-      "image": "images/courses/it.jpg"
+      "image": "images/courses/mca.jpg"
     },
     {
       "slug": "decce",
@@ -235,7 +235,7 @@
       "description": "Training for preschool, daycare, and early childhood education roles.",
       "duration": "1-2 Years",
       "icon": "child",
-      "image": "images/courses/education.jpg"
+      "image": "images/courses/decce.jpg"
     },
     {
       "slug": "vfxa",
@@ -244,7 +244,7 @@
       "description": "Animation, VFX, and digital design programmes for creative careers.",
       "duration": "1-3 Years",
       "icon": "grid",
-      "image": "images/courses/it.jpg"
+      "image": "images/courses/vfxa.jpg"
     },
     {
       "slug": "llb",
@@ -262,7 +262,7 @@
       "description": "Undergraduate information technology and computer science programme.",
       "duration": "3 Years",
       "icon": "gear",
-      "image": "images/courses/it.jpg"
+      "image": "images/courses/bsc-it.jpg"
     },
     {
       "slug": "mba",
