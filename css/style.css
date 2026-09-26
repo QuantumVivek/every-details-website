@@ -1942,19 +1942,26 @@ body.menu-open {
   }
 
   .hero-visual {
-    min-height: 340px;
-    max-width: 380px;
+    min-height: 0;
+    max-width: 460px;
     width: 100%;
     margin: 0 auto;
   }
 
   .hero-photo {
     position: relative;
+    right: auto;
+    bottom: auto;
     width: 100%;
   }
 
   .hero-photo img {
-    height: 340px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center top;
+    mask-image: none;
+    -webkit-mask-image: none;
   }
 
   .plane {
@@ -2117,7 +2124,10 @@ body.menu-open {
   }
 
   .hero-photo img {
-    height: 240px;
+    height: auto;
+    object-fit: contain;
+    mask-image: none;
+    -webkit-mask-image: none;
   }
 
   .hero-wave {
@@ -2202,11 +2212,12 @@ body.menu-open {
 
 @media (max-width: 900px) and (orientation: landscape) {
   .hero-visual {
-    max-width: 240px;
+    max-width: 280px;
   }
 
   .hero-photo img {
-    height: 200px;
+    height: auto;
+    object-fit: contain;
   }
 
   .nav-links {
