@@ -2037,6 +2037,16 @@ body.menu-open {
     grid-template-columns: 1fr;
   }
 
+  .course-media {
+    height: auto;
+  }
+
+  .course-media img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
   .process {
     grid-template-columns: 1fr 1fr;
   }
