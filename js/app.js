@@ -5,7 +5,7 @@ import { renderHome } from "./pages/home.js?v=7";
 import { renderCourses } from "./pages/courses.js?v=7";
 import { renderAbout } from "./pages/about.js?v=9";
 import { renderContact } from "./pages/contact.js?v=14";
-import { renderColleges } from "./pages/colleges.js?v=7";
+import { renderColleges } from "./pages/colleges.js?v=20";
 import { renderPrivacy, renderTerms } from "./pages/legal.js?v=7";
 
 const pages = {
