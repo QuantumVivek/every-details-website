@@ -39,7 +39,6 @@ export async function renderColleges(root) {
           <p>These universities are only a start. We also guide admissions for many more Indian colleges — regular and correspondence. Tell us the one you want.</p>
           <a class="btn btn-navy" href="/contact">Ask About Your College ${icon("arrow")}</a>
         </section>
-        <p class="college-credit">Photographs are from Wikimedia Commons and used under Creative Commons licenses. Where an official campus photo is not available under a free licence, a representative education photo is shown. Photos are for guidance only and do not imply exclusive university partnerships.</p>
       </div>
     </section>
   `;
