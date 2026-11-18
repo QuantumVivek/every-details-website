@@ -96,7 +96,6 @@ export async function renderContact(root) {
             <textarea id="message" name="message" placeholder="Tell us your course, marks, city, and whether you want regular or correspondence"></textarea>
           </div>
           <button class="btn btn-navy" type="submit">Submit Inquiry ${icon("arrow")}</button>
-          <p class="form-hint">Submit ke baad WhatsApp khulega. Poora form +91 82715 83752 par chala jayega — Send dabaana.</p>
           <p class="form-note" id="form-note"></p>
         </form>
       </div>

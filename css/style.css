@@ -242,13 +242,6 @@ body.menu-open {
   font-size: 14px;
 }
 
-.form-hint {
-  margin-top: 12px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.5;
-}
-
 .form-note.success {
   color: #0b7a45;
 }
